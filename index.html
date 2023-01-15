@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .alert_zone{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: dimgray;
+            opacity: 0.5;
+        }
+        .alert_content{
+            position: fixed;
+            top: 100px;
+            left: 35vw;
+        }
+        .img_content{
+            border-radius: 10px;
+            width: 30vw;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="imgList" class="img_list"></div>
+<div id="alertZone" class="alert_zone hide"></div>
+<div id="alertContent" class="alert_content hide">
+    <img id="imgContent" class="img_content">
+</div>
+<script src="script.js"></script>
+</body>
+</html>
